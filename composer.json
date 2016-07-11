@@ -5,7 +5,7 @@
   "keywords": [
     "testing"
   ],
-  "require": {
+  "require-nothing": {
     "mikey179/vfsStream": "1.6.3",
     "pdepend/pdepend": "2.2.4",
     "phploc/phploc": "2.1.5",
@@ -16,5 +16,10 @@
     "phpunit/php-file-iterator": "1.4.1",
     "sebastian/phpcpd": "2.0.4",
     "squizlabs/php_codesniffer": "2.6.1"
+  },
+  "autoload": {
+    "classmap": [
+      "vendor/phpunit/phpunit/src"
+    ]
   }
 }
